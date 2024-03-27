@@ -117,7 +117,7 @@
         app:srcCompat="@drawable/_b8d708b6cd453bacf59e9fefe40d81e" />
 
     <ImageView
-        android:id="@+id/BackGroundImageUp"
+        android:id="@+id/BackGroundImageDown"
         android:layout_width="411sp"
         android:layout_height="266dp"
         android:layout_marginStart="4dp"
@@ -142,8 +142,9 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/BackGroundImageUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.117" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
