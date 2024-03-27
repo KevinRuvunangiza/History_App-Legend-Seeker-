@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+
+
+    android:maxWidth="2000dp"
+    android:minWidth="2000dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/AgeInput"
+        android:layout_width="274dp"
+
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:hint="Enter age"
+
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/enterAgeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/david_libre"
+        android:text="Enter Age:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <Button
+        android:id="@+id/GenHistoryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="340dp"
+        android:backgroundTint="#333143"
+        android:fontFamily="@font/david_libre"
+        android:text="Generate History"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:iconTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AgeInput" />
+
+    <Button
+        android:id="@+id/ClearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="340dp"
+        android:backgroundTint="#333143"
+        android:fontFamily="@font/david_libre"
+        android:text="Clear"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AgeInput" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="377sp"
+        android:layout_height="220sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="#90FFFFFF"
+        android:fontFamily="@font/archivo"
+        android:text="[INFO WILL BE DISPLAYED HERE]"
+        android:textAlignment="center"
+
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/BackGroundImageUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/BackGroundImageUp"
+        app:layout_constraintTop_toTopOf="@+id/BackGroundImageUp"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/BackGroundImageUp"
+        android:layout_width="411sp"
+        android:layout_height="266sp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="4dp"
+        android:alpha="0.8"
+        android:scaleType="fitXY"
+        android:translationZ="-30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_b8d708b6cd453bacf59e9fefe40d81e" />
+
+    <ImageView
+        android:id="@+id/BackGroundImageUp"
+        android:layout_width="411sp"
+        android:layout_height="266dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="44dp"
+        android:alpha="0.8"
+        android:scaleType="fitXY"
+        android:translationY="20sp"
+        android:translationZ="-30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_b8d708b6cd453bacf59e9fefe40d81e" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monoton"
+        android:text="LEGEND SEEKER"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/BackGroundImageUp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

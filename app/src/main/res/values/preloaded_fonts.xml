@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/arbutus</item>
+        <item>@font/archivo</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/david_libre</item>
+        <item>@font/fascinate_inline</item>
+        <item>@font/monoton</item>
+    </array>
+</resources>
