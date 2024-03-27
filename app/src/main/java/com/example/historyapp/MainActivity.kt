@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity() {
                     if (ageTxt == abrahamLincolnAge.toString()) {
 
                         mainTxt.text = "LEGEND FOUND...$abrahamLincolnAge corresponds to the age $abrahamLincoln had when he died\nHe was the 16th president of the United States of America(USA)"
+
                     }else if (ageTxt.toInt() == mozartAge) {
 
                         mainTxt.text = "LEGEND FOUND...$mozartAge corresponds to the age $mozart had when he passed away\n He was a musical prodigy,a great compisitor and a improvisation genius"
