@@ -1,4 +1,4 @@
-LEGEND SEEKER, is an app that takes the user input(an age) and looks for a legend that died at the age the user inputed The app denies every non Integer entries and prompts the user to try again,for now the app only keeps record of 10 Legends but in further updates more of them will be added it also only accepts entries that are between 20 and 99 years old,the project runs in Android Studio and it's utilizes the "Pixel 3a API 30" emulator using other emulators might disrupt the app display.
+LEGEND SEEKER, is an app that takes the user input(an age) and looks for a legend that died at the age the user inputed The app denies every non Integer entries and prompts the user to try again,for now the app only keeps record of 10 Legends but in further updates more of them will be added it also only accepts entries that are between 20 and 99 years old,the project runs in Android Studio and it's utilizes the "Pixel 3a API 30" emulator using other emulators might disrupt the app layout.
 
 STEPS TO RUN THE PROJECT:
 
